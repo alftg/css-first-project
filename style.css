@@ -1,4 +1,10 @@
-h1,
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+
+/* No need to choose each selector if we can use 1 "body" and then all elements will inherit the style
+
 h2,
 h3,
 h4,
@@ -6,7 +12,7 @@ p,
 li {
   font-family: sans-serif;
   color: #444;
-}
+} */
 
 h1,
 h2,
@@ -113,4 +119,9 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+nav a:link,
+nav p {
+  font-size: 18px;
 }
