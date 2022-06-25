@@ -9,10 +9,18 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   padding: 20px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 article {
@@ -28,6 +36,7 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
+  width: 500px;
 }
 
 /* No need to choose each selector if we can use 1 "body" and then all elements will inherit the style
@@ -137,11 +146,12 @@ li:nth-child(odd) {
 a:link {
   color: rgb(0, 89, 255);
   text-decoration: none;
+  font-size: 18px;
 }
 
-a:visited {
+/* a:visited {
   color: rgb(0, 89, 255);
-}
+} */
 
 a:hover {
   color: darkblue;
@@ -153,6 +163,7 @@ a:active {
   font-style: italic;
 }
 
-nav a:link {
-  font-size: 18px;
+.post-image {
+  width: 100%;
+  height: auto;
 }
